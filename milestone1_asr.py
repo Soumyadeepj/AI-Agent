@@ -3,8 +3,6 @@ import cv2
 from gtts import gTTS
 from playsound import playsound
 import os
-
-# --- Text-to-Speech Function ---
 def speak(text):
     """Converts text to speech and plays it."""
     try:
